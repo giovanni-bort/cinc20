@@ -11,6 +11,7 @@ Example of trained networks with cross-validation (3-fold) of PhysioNet/CinC Cha
 * `NEW_NET_3.mat` trained CNN GoogLeNet.
 
  Refer to the paper:.
+ 
 Potential of Rule-Based Methods and Simple Deep Learning architectures for ECG Diagnostic Identification.
 Giovanni Bortolan, Ivaylo Christov, Iana Simova.
 sumbitted to Physiological Measurement.
