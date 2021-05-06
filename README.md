@@ -2,7 +2,10 @@
 
 ## Contents
 
-This code uses two main scripts to train the model and classify the data:
+NEW_NET_1.mat
+NEW_NET_2.mat
+NEW_NET_3.mat
+
 
 * `train_model.m` Train your model. Add your model code to the `train_12ECG_model` function. It also performs all file input and output. **Do not** edit this script or we will be unable to evaluate your submission.
 * `driver.m` is the classifier which calls the output from your train_model. It also performs all file input and output. **Do not** edit this script or we will be unable to evaluate your submission.
@@ -17,12 +20,11 @@ Check the code in these files for the input and output formats for the `load_12E
 
 ## Running
 
-You can run this prediction code by starting MATLAB and running
+You can check the structure of GoogLeNet networks by starting MATLAB and running
 
-    train_model(training_data, model)
-    driver(model, test_data, test_outputs)
+    load NEW_NET_1.mat
+    analyzeNetwork(NEW_NET_1)
 
-where `training_data` is a directory of training data files, `model` is a directory of files for the model, `test_data` is the directory of test data files, and `test_outputs` is a directory of classifier outputs.  The [PhysioNet/CinC 2020 webpage](https://physionetchallenges.github.io/2020/) provides a training database with data files and a description of the contents and structure of these files.
 
 ## Submission
 
