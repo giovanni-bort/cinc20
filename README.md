@@ -2,7 +2,8 @@
 
 ## Contents
 
-Example of trained networks with cross-validation (3-fold) of PhysioNet/CinC Challenge 2020 
+Example of trained networks with cross-validation (3-fold) of PhysioNet/CinC Challenge 2020.
+
 Refer to the paper:
 
 
