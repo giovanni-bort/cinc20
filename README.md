@@ -4,13 +4,16 @@
 
 Example of trained networks with cross-validation (3-fold) of PhysioNet/CinC Challenge 2020.
 
-Refer to the paper:
 
 
 * `NEW_NET_1.mat` trained CNN GoogLeNet.
 * `NEW_NET_2.mat` trained CNN GoogLeNet.
+* `NEW_NET_3.mat` trained CNN GoogLeNet.
 
-Check the code in these files for the input and output formats for the `train_model` and `driver` scripts.
+ Refer to the paper:.
+Potential of Rule-Based Methods and Simple Deep Learning architectures for ECG Diagnostic Identification.
+Giovanni Bortolan, Ivaylo Christov, Iana Simova.
+sumbitted to Physiological Measurement.
 
 
 
