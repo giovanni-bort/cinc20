@@ -1,4 +1,4 @@
-# Example prediction code for MATLAB for the PhysioNet/CinC Challenge 2020
+# Example of trained CNN GoogLeNet MATLAB for the PhysioNet/CinC Challenge 2020
 
 ## Contents
 
@@ -26,20 +26,7 @@ where `training_data` is a directory of training data files, `model` is a direct
 
 ## Submission
 
-The `driver.m`, `get_12ECG_score.m`, and `get_12ECG_features.m` scripts must be in the root path of your repository. If they are inside a folder, then the submission will be unsuccessful.
+
 
 ## Details
 
-The code uses three main toolboxes:
-- HRV toolbox to compute the RR intervals. https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox.git. 
-  "An Open Source Benchmarked Toolbox for Cardiovascular Waveform and Interval Analysis", 
-   Physiological measurement 39, no. 10 (2018): 105004. DOI:10.5281/zenodo.1243111; 2018. 
- - ECGkit to find the ECG fiducial points: https://github.com/marianux/ecg-kit.git
-  Demski AJ, Llamedo Soria M. "ecg-kit a Matlab Toolbox for Cardiovascular Signal Processing".  
-  Journal of Open Research Software. 2016;4(1):e8. DOI: http://doi.org/10.5334/jors.86
-- GEH parameter extraction and origin point: https://github.com/Tereshchenkolab/Global-Electrical-Heterogeneity.git and https://github.com/Tereshchenkolab/Origin.git. 
-  Perez-Alday,et al; "Importance of the Heart Vector Origin Point Definition for an ECG analysis: 
-  The Atherosclerosis Risk in Communities (ARIC) study". Comp Biol Med, Volume 104, January 2019, 
-  pages 127-138. https://doi.org/10.1016/j.compbiomed.2018.11.013
-  Waks JW, et al. "Global Electric Heterogeneity Risk Score for Prediction of Sudden Cardiac Death in the General Population: 
-  The Atherosclerosis Risk in Communities (ARIC) and Cardiovascular Health (CHS) Studies". Circulation. 2016;133:2222-2234.
